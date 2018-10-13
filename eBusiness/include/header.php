@@ -38,10 +38,17 @@
 
 <?php
 echo '<PRE>';
-print_r(explode("/",$_SERVER['REQUEST_URI']));
+$nav_menu;
+$r  = end(explode("/",$_SERVER['REQUEST_URI']));
+if(!empty($r)){
+  $nav_menu = $r;
+}
+else{
+  $nav_menu = "index.php";
+}
 
-$nav_menu = !empty(end(explode("/",$_SERVER['REQUEST_URI']))) ? end(explode("/",$_SERVER['REQUEST_URI'])) : "index.php";
-echo "nav menu -> " . $nav_menu;
+// $nav_menu = !empty(end(explode("/",$_SERVER['REQUEST_URI']))) ? end(explode("/",$_SERVER['REQUEST_URI'])) : "index.php";
+// echo "nav menu -> " . $nav_menu;
 function nav_active($nav_name){
   
   $nav_page = array(0=>"index.php",1=>"about.php",2=>"services.php",3=>"team.php",4=>"career.php",5=>"blog.php");
