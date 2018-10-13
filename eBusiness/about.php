@@ -5,15 +5,6 @@
   <!-- Start Slider Area -->
   <br>
   <div id="home" class="slider-area">
-   
-
-
-
- 
- 
-
-
-
 
   <!-- Start about_
      ourvalues -->
