@@ -34,20 +34,22 @@
   <!-- Responsive Stylesheet File -->
   <link href="css/responsive.css" rel="stylesheet">
 
-
-
-
-
-
-
-  <!-- =======================================================
-    Theme Name: eBusiness
-    Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
 </head>
 
+<?php
+$nav_menu = !empty(end(explode("/",$_SERVER['REQUEST_URI']))) ? end(explode("/",$_SERVER['REQUEST_URI'])) : "index.php";
+function nav_active($nav_name){
+  
+  $nav_page = array(0=>"index.php",1=>"about.php",2=>"services.php",3=>"team.php",4=>"career.php",5=>"blog.php");
+  if( in_array( $nav_name ,$nav_page ) )
+  {
+      return true;
+  }
+  return false;
+}
+
+
+?>
 <body data-spy="scroll" data-target="#navbar-example">
 
 <div id="preloader"></div>
@@ -79,24 +81,25 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
               <ul class="nav navbar-nav navbar-right">
-                <li class="active"> 
-                  <a class="page-scroll" href="#">About Swiftlet</a>
+              <li class="<?php echo nav_active($nav_menu) == true && $nav_menu == "index.php" ? "active" : "";?>">
+                  <a class="" href="index.php">About Swiftlet</a>
                 </li>
-                <li>
-                  <a class="page-scroll" href="#about">Terebinth</a>
+                <li class="<?php echo nav_active($nav_menu) == true  && $nav_menu == "about.php" ? "active" : "";?>">
+                  <a class="" href="#">Terebinth</a>
                 </li>
-                <li>
-                  <a class="page-scroll" href="#services">Services</a>
+                <li class="<?php echo nav_active($nav_menu) == true  && $nav_menu == "services.php" ? "active" : "";?>">
+                  <a class="" href="#">Services</a>
                 </li>
-                <li>
-                  <a class="page-scroll" href="#team">Learn with Swiftlet
+                <li class="<?php echo nav_active($nav_menu) == true  && $nav_menu == "team.php" ? "active" : "";?>">
+                  <a class="" href="#">Learn with Swiftlet
 </a>
                 </li>
-                <li class="">
-                  <a class="page-scroll" href="career.php">Career</a>
+          
+                <li class="<?php echo nav_active($nav_menu) == true  && $nav_menu == "career.php" ? "active" : "";?>">
+                  <a class="" href="career.php">Career</a>
                 </li>
-                <li>
-                  <a class="page-scroll" href="#blog">News</a>
+                <li class="<?php echo nav_active($nav_menu) == true  && $nav_menu == "blog.php"  ? "active" : "";?>">
+                  <a class="" href="#">News</a>
                 </li>
                 
               </ul>
