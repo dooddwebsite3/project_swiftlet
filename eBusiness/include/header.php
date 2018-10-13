@@ -79,8 +79,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
               <ul class="nav navbar-nav navbar-right">
-                <li class="active">
-                  <a class="page-scroll" href="#home">About Swiftlet</a>
+                <li class="active"> 
+                  <a class="page-scroll" href="#">About Swiftlet</a>
                 </li>
                 <li>
                   <a class="page-scroll" href="#about">Terebinth</a>
@@ -92,8 +92,8 @@
                   <a class="page-scroll" href="#team">Learn with Swiftlet
 </a>
                 </li>
-                <li>
-                  <a class="page-scroll" href="#portfolio">Career</a>
+                <li class="">
+                  <a class="page-scroll" href="career.php">Career</a>
                 </li>
                 <li>
                   <a class="page-scroll" href="#blog">News</a>

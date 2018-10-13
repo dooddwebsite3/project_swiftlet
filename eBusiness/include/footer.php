@@ -48,55 +48,55 @@
               <div class="footer-head">
 
                 <div class="col-sm-2"> 
-                About Swiftlet 
+                <B>About Swiftlet</B> 
                 <ul>
-                  <li>Manifesto</li>
-                  <li>Our stories</li>
-                  <li>Our Contribution</li>
+                  <li><a href="#">Manifesto</a></li>
+                  <li><a href="#">Our stories</a></li>
+                  <li><a href="#">Our Contribution</a></li>
                 </ul> 
                 </div>
 
                 <div class="col-sm-2"> 
-                Terebinth 
+                <B>Terebinth</B>
                 <ul>
-                  <li> Why ERP</li>
-                  <li> What is Terebinth</li>
-                  <li> Solutions</li>
+                  <li><a href="#"> Why ERP</a></li>
+                  <li><a href="#"> What is Terebinth</a></li>
+                  <li><a href="#"> Solutions</a></li>
                 </ul>
                 </div> 
                 <div class="col-sm-2">
-                IT Services
+                    <B>IT Services</B>
                 <ul>
-                  <li>Capabilities</li>
-                  <li>Clients</li>
+                  <li><a href="#">Capabilities</a></li>
+                  <li><a href="#">Clients</a></li>
                 </ul>  
                 </div>
                 <div class="col-sm-2"> 
-                Learn with Swiftlet 
+                <B>Learn with Swiftlet</B> 
                 <ul>
-                  <li>Ruby on Rail</li>
-                  <li>Xxxx</li>
-                  <li>Xxxx</li>
-                  <li>Xxxx</li>
+                  <li><a href="#">Ruby on Rail</a></li>
+                  <li><a href="#">Xxxx</a></li>
+                  <li><a href="#">Xxxx</a></li>
+                  <li><a href="#">Xxxx</a></li>
                 </ul>
                 </div>  
                 <div class="col-sm-2"> 
-                Career 
+                <B>Career</B> 
                 <ul>
-                    <li>Life at Swiftlet</li>
-                    <li>Internship</li>
-                    <li>Developer</li>
-                    <li>Software QA</li>
-                    <li>DevOps Engineer</li>
-                    <li>UI Designer</li>
-                    <li>UX Designer</li>
-                    <li>Project Manager</li>
+                    <li><a href="#">Life at Swiftlet</a></li>
+                    <li><a href="#">Internship</a></li>
+                    <li><a href="#">Developer</a></li>
+                    <li><a href="#">Software QA</a></li>
+                    <li><a href="#">DevOps Engineer</a></li>
+                    <li><a href="#">UI Designer</a></li>
+                    <li><a href="#">UX Designer</a></li>
+                    <li><a href="#">Project Manager</a></li>
                 </ul>
                 
         
                 </div>
                 <div class="col-sm-2"> 
-                News 
+                <B>News</B> 
                 </div>                 
               </div>
             </div>
