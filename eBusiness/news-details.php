@@ -8,7 +8,7 @@
           <div class="page-head-blog">
           
          
-           <?php require_once('./include/category/nav_left.php');?>
+           <?php require_once('./include/news/nav_left.php');?>
          
           </div>
         </div>

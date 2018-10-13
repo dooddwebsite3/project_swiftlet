@@ -53,7 +53,7 @@ if(count($nav_menu) > 0)
 // echo "nav menu -> " . $nav_menu;
 function nav_active($nav_name){
   
-  $nav_page = array(0=>"index.php",1=>"about.php",2=>"services.php",3=>"learnswiftlet.php",4=>"career.php",5=>"news.php");
+  $nav_page = array(0=>"index.php",1=>"about.php",2=>"services.php",3=>"learnswiftlet.php",4=>"career.php",5=>"news.php",6=>"blog-details.php",7=>"news-details.php");
   if( in_array( $nav_name ,$nav_page ) )
   {
       return true;
@@ -106,7 +106,7 @@ function nav_active($nav_name){
                 <li class="<?php echo nav_active($nav_menu) == true  && $nav_menu == "services.php" ? "active" : "";?>">
                   <a class="" href="services.php">Services</a>
                 </li>
-                <li class="<?php echo nav_active($nav_menu) == true  && $nav_menu == "learnswiftlet.php" ? "active" : "";?>">
+                <li class="<?php echo nav_active($nav_menu) == true  && ($nav_menu == "learnswiftlet.php" || $nav_menu == "blog-details.php")? "active" : "";?>">
                   <a class="" href="learnswiftlet.php">Learn with Swiftlet
 </a>
                 </li>
@@ -114,7 +114,7 @@ function nav_active($nav_name){
                 <li class="<?php echo nav_active($nav_menu) == true  && $nav_menu == "career.php" ? "active" : "";?>">
                   <a class="" href="career.php">Career</a>
                 </li>
-                <li class="<?php echo nav_active($nav_menu) == true  && $nav_menu == "news.php"  ? "active" : "";?>">
+                <li class="<?php echo nav_active($nav_menu) == true  && ($nav_menu == "news.php"  || $nav_menu == "news-details.php") ? "active" : "";?>">
                   <a class="" href="news.php">News</a>
                 </li>
                 
