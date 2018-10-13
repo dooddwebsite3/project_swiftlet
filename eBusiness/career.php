@@ -1,5 +1,6 @@
 
 <?php include("./include/header.php"); ?>
+<br>
 
    <!--Career area start -->
   <div class="faq-area area-padding">

@@ -72,12 +72,11 @@ function nav_active($nav_name){
                                       <span class="icon-bar"></span>
                                       <span class="icon-bar"></span>
                                   </button>
-              <!-- Brand -->
-              <a class="navbar-brand page-scroll sticky-logo" href="index.php">
-                
-                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- Brand -->
+                <a class="navbar-brand page-scroll sticky-logo" href="index.php">
+               <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <img src="img/logo.png" alt="" title=""> -->
-                              </a>
+                </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
