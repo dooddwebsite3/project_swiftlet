@@ -37,6 +37,9 @@
 </head>
 
 <?php
+echo '<PRE>';
+print_r(explode("/",$_SERVER['REQUEST_URI']));
+
 $nav_menu = !empty(end(explode("/",$_SERVER['REQUEST_URI']))) ? end(explode("/",$_SERVER['REQUEST_URI'])) : "index.php";
 echo "nav menu -> " . $nav_menu;
 function nav_active($nav_name){
