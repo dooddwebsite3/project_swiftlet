@@ -16,7 +16,7 @@
                   <h2><span></span>Swiftlet</h2>
                 </div>
     </div>
-    <div class="col-sm-6"> <p>Swiftlet Co., Ltd. (Headquarter)
+    <div class="col-sm-6"> <p style="text-align:left;">Swiftlet Co., Ltd. (Headquarter)
                               120/14 Moo 2 Ngamwongwan Road, Bangkhen,
                               Muang Nonthaburi, Nonthaburi 11000 THAILAND 
                               <br>Tel: +662-102-1946
