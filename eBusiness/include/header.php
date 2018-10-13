@@ -38,10 +38,17 @@
 
 <?php
 
-// $nav_menu = !empty(end(explode("/",$_SERVER['REQUEST_URI']))) ? end(explode("/",$_SERVER['REQUEST_URI'])) : "index.php";
-$nav_menu = end(explode("/",$_SERVER['REQUEST_URI'])) ? end(explode("/",$_SERVER['REQUEST_URI'])) : "index.php";
-
-
+//$nav_menu = !empty(end(explode("/",$_SERVER['REQUEST_URI']))) ? end(explode("/",$_SERVER['REQUEST_URI'])) : "index.php";
+$nav_menu = count(explode("/",$_SERVER['REQUEST_URI'])) > 0 ? explode("/",$_SERVER['REQUEST_URI']) : array();
+if(count($nav_menu) > 0)
+{
+  $count = 0;
+  foreach($nav_menu as $_keys => $_values){
+    ++ $count;
+  }
+  $r = explode(".",$nav_menu[$count - 1]);
+  $nav_menu = isset($r[1]) && ($r[1] == "php") ? $nav_menu[$count -1] : "index.php" ; 
+}
 // echo "nav menu -> " . $nav_menu;
 function nav_active($nav_name){
   
