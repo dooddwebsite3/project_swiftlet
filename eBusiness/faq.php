@@ -1,68 +1,6 @@
 
 <?php include("./include/header.php"); ?>
-<body data-spy="scroll" data-target="#navbar-example">
 
-  <div id="preloader"></div>
-
-  <header>
-    <!-- header-area start -->
-    <div id="sticker" class="header-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-
-            <!-- Navigation -->
-            <nav class="navbar navbar-default">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-                <!-- Brand -->
-                <a class="navbar-brand page-scroll sticky-logo" href="index.html">
-                  
-                  <!-- Uncomment below if you prefer to use an image logo -->
-                  <!-- <img src="img/logo.png" alt="" title=""> -->
-								</a>
-              </div>
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
-                <ul class="nav navbar-nav navbar-right">
-                  <li class="active">
-                    <a class="page-scroll" href="#home">About Swiftlet</a>
-                  </li>
-                  <li>
-                    <a class="page-scroll" href="#about">Terebinth</a>
-                  </li>
-                  <li>
-                    <a class="page-scroll" href="#services">Services</a>
-                  </li>
-                  <li>
-                    <a class="page-scroll" href="#team">Learn with Swiftlet
-</a>
-                  </li>
-                  <li>
-                    <a class="page-scroll" href="#portfolio">Career</a>
-                  </li>
-                  <li>
-                    <a class="page-scroll" href="#blog">News</a>
-                  </li>
-                  
-                </ul>
-              </div>
-              <!-- navbar-collapse -->
-            </nav>
-            <!-- END: Navigation -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- header-area end -->
-  </header>
-  <!-- header end -->
 
   <!-- Start Slider Area -->
   <div id="home" class="slider-area">
@@ -743,7 +681,7 @@
           <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="single-blog">
               <div class="single-blog-img">
-                <a href="blog.html">
+                <a href="blog.php">
 										<img src="img/blog/1.jpg" alt="">
 									</a>
               </div>
@@ -758,14 +696,14 @@
               </div>
               <div class="blog-text">
                 <h4>
-                                        <a href="blog.html">Assumenda repud eum veniam</a>
+                                        <a href="blog.php">Assumenda repud eum veniam</a>
 									</h4>
                 <p>
                   Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.
                 </p>
               </div>
               <span>
-									<a href="blog.html" class="ready-btn">Read more</a>
+									<a href="blog.php" class="ready-btn">Read more</a>
 								</span>
             </div>
             <!-- Start single blog -->
@@ -775,7 +713,7 @@
           <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="single-blog">
               <div class="single-blog-img">
-                <a href="blog.html">
+                <a href="blog.php">
 										<img src="img/blog/2.jpg" alt="">
 									</a>
               </div>
@@ -790,14 +728,14 @@
               </div>
               <div class="blog-text">
                 <h4>
-                                        <a href="blog.html">Explicabo magnam quibusdam.</a>
+                                        <a href="blog.php">Explicabo magnam quibusdam.</a>
 									</h4>
                 <p>
                   Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.
                 </p>
               </div>
               <span>
-									<a href="blog.html" class="ready-btn">Read more</a>
+									<a href="blog.php" class="ready-btn">Read more</a>
 								</span>
             </div>
             <!-- Start single blog -->
@@ -807,7 +745,7 @@
           <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="single-blog">
               <div class="single-blog-img">
-                <a href="blog.html">
+                <a href="blog.php">
 										<img src="img/blog/3.jpg" alt="">
 									</a>
               </div>
@@ -822,14 +760,14 @@
               </div>
               <div class="blog-text">
                 <h4>
-                                        <a href="blog.html">Lorem ipsum dolor sit amet</a>
+                                        <a href="blog.php">Lorem ipsum dolor sit amet</a>
 									</h4>
                 <p>
                   Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.
                 </p>
               </div>
               <span>
-									<a href="blog.html" class="ready-btn">Read more</a>
+									<a href="blog.php" class="ready-btn">Read more</a>
 								</span>
             </div>
           </div>
