@@ -40,6 +40,7 @@
 
 //$nav_menu = !empty(end(explode("/",$_SERVER['REQUEST_URI']))) ? end(explode("/",$_SERVER['REQUEST_URI'])) : "index.php";
 $nav_menu = count(explode("/",$_SERVER['REQUEST_URI'])) > 0 ? explode("/",$_SERVER['REQUEST_URI']) : array();
+
 if(count($nav_menu) > 0)
 {
   $count = 0;
