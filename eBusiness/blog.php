@@ -188,7 +188,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="single-blog">
                 <div class="single-blog-img">
-                  <a href="blog-details.html">
+                  <a href="blog-details.php">
 											<img src="img/blog/1.jpg" alt="">
 										</a>
                 </div>
@@ -210,7 +210,7 @@
                   </p>
                 </div>
                 <span>
-										<a href="blog-details.html" class="ready-btn">Read more</a>
+										<a href="blog-details.php" class="ready-btn">Read more</a>
 									</span>
               </div>
             </div>
@@ -218,7 +218,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="single-blog">
                 <div class="single-blog-img">
-                  <a href="blog-details.html">
+                  <a href="blog-details.php">
 											<img src="img/blog/2.jpg" alt="">
 										</a>
                 </div>
@@ -240,7 +240,7 @@
                   </p>
                 </div>
                 <span>
-										<a href="blog-details.html" class="ready-btn">Read more</a>
+										<a href="blog-details.php" class="ready-btn">Read more</a>
 									</span>
               </div>
             </div>
@@ -248,7 +248,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="single-blog">
                 <div class="single-blog-img">
-                  <a href="blog-details.html">
+                  <a href="blog-details.php">
 											<img src="img/blog/3.jpg" alt="">
 										</a>
                 </div>
@@ -270,7 +270,7 @@
                   </p>
                 </div>
                 <span>
-										<a href="blog-details.html" class="ready-btn">Read more</a>
+										<a href="blog-details.php" class="ready-btn">Read more</a>
 									</span>
               </div>
             </div>
@@ -278,7 +278,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="single-blog">
                 <div class="single-blog-img">
-                  <a href="blog-details.html">
+                  <a href="blog-details.php">
 											<img src="img/blog/4.jpg" alt="">
 										</a>
                 </div>
@@ -300,7 +300,7 @@
                   </p>
                 </div>
                 <span>
-										<a href="blog-details.html" class="ready-btn">Read more</a>
+										<a href="blog-details.php" class="ready-btn">Read more</a>
 									</span>
               </div>
             </div>
@@ -308,7 +308,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="single-blog">
                 <div class="single-blog-img">
-                  <a href="blog-details.html">
+                  <a href="blog-details.php">
 											<img src="img/blog/5.jpg" alt="">
 										</a>
                 </div>
@@ -330,7 +330,7 @@
                   </p>
                 </div>
                 <span>
-										<a href="blog-details.html" class="ready-btn">Read more</a>
+										<a href="blog-details.php" class="ready-btn">Read more</a>
 									</span>
               </div>
             </div>

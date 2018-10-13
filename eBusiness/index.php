@@ -582,21 +582,21 @@
           <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="single-blog">
               <div class="single-blog-img">
-                <a href="blog.html">
+                <a href="blog.php">
                     <img src="img/blog/1.jpg" alt="">
                   </a>
               </div>
               <br>
               <div class="blog-text">
                 <h4>
-                                        <a href="blog.html">Assumenda repud eum veniam</a>
+                                        <a href="blog.php">Assumenda repud eum veniam</a>
                   </h4>
                 <p>
                   Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.
                 </p>
               </div>
               <span>
-                  <a href="blog.html" class="ready-btn">Read more</a>
+                  <a href="blog.php" class="ready-btn">Read more</a>
                 </span>
             </div>
             <!-- Start single blog -->
@@ -606,21 +606,21 @@
           <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="single-blog">
               <div class="single-blog-img">
-                <a href="blog.html">
+                <a href="blog.php">
                     <img src="img/blog/2.jpg" alt="">
                   </a>
               </div>
               <br>
               <div class="blog-text">
                 <h4>
-                                        <a href="blog.html">Explicabo magnam quibusdam.</a>
+                                        <a href="blog.php">Explicabo magnam quibusdam.</a>
                   </h4>
                 <p>
                   Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.
                 </p>
               </div>
               <span>
-                  <a href="blog.html" class="ready-btn">Read more</a>
+                  <a href="blog.php" class="ready-btn">Read more</a>
                 </span>
             </div>
             <!-- Start single blog -->
@@ -630,21 +630,21 @@
           <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="single-blog">
               <div class="single-blog-img">
-                <a href="blog.html">
+                <a href="blog.php">
                     <img src="img/blog/3.jpg" alt="">
                   </a>
               </div>
               <br>
               <div class="blog-text">
                 <h4>
-                                        <a href="blog.html">Lorem ipsum dolor sit amet</a>
+                                        <a href="blog.php">Lorem ipsum dolor sit amet</a>
                   </h4>
                 <p>
                   Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.
                 </p>
               </div>
               <span>
-                  <a href="blog.html" class="ready-btn">Read more</a>
+                  <a href="blog.php" class="ready-btn">Read more</a>
                 </span>
             </div>
           </div>
