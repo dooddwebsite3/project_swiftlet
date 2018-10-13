@@ -91,7 +91,9 @@ p.a{
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
+ /*font-family: 'Raleway', sans-serif; */
+
+  font-family: 'rsubold'; 
   margin: 0 0 15px;
   color: #444;
   font-weight: 500;
@@ -147,8 +149,8 @@ a:active, a:hover {
 body {
   background: #fff none repeat scroll 0 0;
   color: #444;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-family: 'rsulight';
+  font-size: 18px;
   text-align: left;
   overflow-x: hidden;
   line-height: 22px;
@@ -292,8 +294,8 @@ div#preloader {
 .main-menu ul.navbar-nav li a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   color: #fff;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 1000;
   padding: 24px 0px;
   text-transform: capitalize;
   letter-spacing: 1px;
@@ -745,8 +747,9 @@ div#preloader {
   font-weight: 500;
   margin-right: 5px;
   padding: 10px 20px;
-  font-family: raleway;
-  font-size: 18px;
+  /*font-family: raleway;*/
+  font-family: 'rsubold';
+  font-size: 24px;
 }
 
 .tab-menu ul li.active a, .tab-menu ul li.hover a, .tab-menu ul li.focus a {

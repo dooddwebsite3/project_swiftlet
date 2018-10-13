@@ -10,9 +10,46 @@ html {
     -ms-text-size-adjust: 100%
 }
 
+@font-face {
+
+    font-family: 'rsubold';
+    src: url('../fonts/rsu_font/rsu_bold-webfont.woff2') format('woff2'),
+         url('../fonts/rsu_font/rsu_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  
+  
+  
+  @font-face {
+    font-family: 'rsulight';
+    src: url('../fonts/rsu_font/rsu_light-webfont.woff2') format('woff2'),
+         url('../fonts/rsu_font/rsu_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  
+  
+  
+  @font-face {
+    font-family: 'rsuregular';
+    src: url('../fonts/rsu_font/rsu_regular-webfont.woff2') format('woff2'),
+         url('../fonts/rsu_font/rsu_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
 body {
-    margin: 0
+    margin: 0;
+    /* Font ที่เพิ่มเข้ามาใหม่ */
+  
 }
+
 
 article,
 aside,

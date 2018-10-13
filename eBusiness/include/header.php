@@ -50,7 +50,8 @@ function nav_active($nav_name){
 
 
 ?>
-<body data-spy="scroll" data-target="#navbar-example">
+
+<body data-spy="scroll"   data-target="#navbar-example">
 
 <div id="preloader"></div>
 
@@ -82,13 +83,16 @@ function nav_active($nav_name){
             <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
               <ul class="nav navbar-nav navbar-right">
               <li class="<?php echo nav_active($nav_menu) == true && $nav_menu == "index.php" ? "active" : "";?>">
-                  <a class="" href="index.php">About Swiftlet</a>
+                  <a class="" href="index.php">Home</a>
                 </li>
-                <li class="<?php echo nav_active($nav_menu) == true  && $nav_menu == "about.php" ? "active" : "";?>">
-                  <a class="" href="#">Terebinth</a>
+              <li class="<?php echo nav_active($nav_menu) == true && $nav_menu == "about.php" ? "active" : "";?>">
+                  <a class="" href="about.php">About Swiftlet</a>
+                </li>
+                <li class="<?php echo nav_active($nav_menu) == true  && $nav_menu == "https://www.tereb.in.th/" ? "active" : "";?>">
+                  <a class="" href="https://www.tereb.in.th/">Terebinth</a>
                 </li>
                 <li class="<?php echo nav_active($nav_menu) == true  && $nav_menu == "services.php" ? "active" : "";?>">
-                  <a class="" href="#">Services</a>
+                  <a class="" href="services.php">Services</a>
                 </li>
                 <li class="<?php echo nav_active($nav_menu) == true  && $nav_menu == "team.php" ? "active" : "";?>">
                   <a class="" href="#">Learn with Swiftlet
